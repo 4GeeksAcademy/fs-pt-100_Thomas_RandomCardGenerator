@@ -1,5 +1,58 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
-
-body{
-    background: white;
+body {
+    background-image: url("https://img.freepik.com/free-vector/flat-design-poker-table-background_23-2151047002.jpg?t=st=1743244602~exp=1743248202~hmac=04d49b81cd71ed294cffa433abe681823ded4e2977465fc96348be8eda990098&w=1380");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    color: white;
+    
 }
+.myCard {
+    width: 250px;
+    height: 400px;
+    margin-top: 10px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    font-size: 60px;
+    position: relative;
+    padding: 20px;;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.myContainer-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.suitUp {
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    font-size: 80px;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .value {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+.suitDown {
+    position: absolute;
+    right: 15px;
+    bottom: -10px;
+    font-size: 80px;
+    transform: rotate(180deg);
+    display: flex;
+    align-items: flex-end;
+  }
